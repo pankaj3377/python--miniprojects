@@ -1,0 +1,6 @@
+li=[1,2,10,5]
+greater=li[0]
+for num in li[1:]:
+    if num>greater:
+        greater=num
+print("Greatest number is:", greater) 
